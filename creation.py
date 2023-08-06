@@ -7,6 +7,7 @@ with open('effective_detector.txt', 'w') as effective:
             effective.write('\tprint("Your number is even")\n')
         else:
             effective.write('\tprint("Your number is odd")\n')
+    effective.write('\f if num > {numbers}: \n print("go away bruh")')
 
 
 
