@@ -8,4 +8,3 @@ with open('effective_detector.txt', 'w') as effective:
         else:
             effective.write('\tprint("Your number is odd")\n')
     effective.write('\f if num > {numbers}: \n print("go away bruh")')
-    
